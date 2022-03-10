@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+/*메인슬라이드*/
+#container{}
+.mainSlider{}
+.sliderList01{
+    outline: none;
+}
+.mainSlider .slick-dots li.slick-active{background: #000;}
+
+.mainSlider .slick-dots{
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    bottom: 5%
+}
+.mainSlider .slick-dots li{
+    width: 8px;
+    height: 8px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    float: left;
+    text-indent: -9999px;
+    margin: 0 4px;
+}
+
+.mainSlider
+
+
+
+a{
+    outline: none;
+}
+.slideBtn{
+    position: absolute;
+    width: 20px;
+    display: block;
+}
+.slideBtn img{
+}
+
+.mainCon02 .slidePrev{
+    left: 3%;
+    top: 40%;
+}
+.mainCon02 .slideNext{
+    top: 40%;
+    right: 3%;
+}
+
+

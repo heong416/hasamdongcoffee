@@ -1,0 +1,625 @@
+
+@charset"UTF-8";
+
+
+/*노토산스*/
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('NotoSans'),
+        url('NotoSans-Thin.woff2') format('woff2'), 
+        url('NotoSans-Thin.woff') format('woff'),
+        url('NotoSans-Thin.ttf') format('truetype'),
+        url('NotoSans-Thin.otf') format('opentype'),
+        url('NotoSans-Thin.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 200;
+    src: local('NotoSans'),
+        url('NotoSans-Light.woff2') format('woff2'), 
+        url('NotoSans-Light.woff') format('woff'),
+        url('NotoSans-Light.ttf') format('truetype'),
+        url('NotoSans-Light.otf') format('opentype'),
+        url('NotoSans-Light.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NotoSans'),
+        url('NotoSans-Regular.woff2') format('woff2'), 
+        url('NotoSans-Regular.woff') format('woff'),
+        url('NotoSans-Regular.ttf') format('truetype'),
+        url('NotoSans-Regular.otf') format('opentype'),
+        url('NotoSans-Regular.eot') format('embedded-opentype');
+}
+
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('NotoSans'),
+        url('NotoSans-midium.woff2') format('woff2'), 
+        url('NotoSans-midium.woff') format('woff'),
+        url('NotoSans-midium.ttf') format('truetype'),
+        url('NotoSans-midium.otf') format('opentype'),
+        url('NotoSans-midium.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NotoSans'),
+        url('NotoSans-Bold.woff2') format('woff2'), 
+        url('NotoSans-Bold.woff') format('woff'),
+        url('NotoSans-Bold.ttf') format('truetype'),
+        url('NotoSans-Bold.otf') format('opentype'),
+        url('NotoSans-Bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 900;
+    src: local('NotoSans'),
+        url('NotoSans-Black.woff2') format('woff2'), 
+        url('NotoSans-Black.woff') format('woff'),
+        url('NotoSans-Black.ttf') format('truetype'),
+        url('NotoSans-Black.otf') format('opentype'),
+        url('NotoSans-Black.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+
+
+
+/*나눔고딕*/
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 100;
+    src: local('NanumBarunGothic'),
+        url('NanumBarunGothicUL.woff2') format('woff2'), 
+        url('NanumBarunGothicUL.woff') format('woff'),
+        url('NanumBarunGothicUL.ttf') format('truetype'),
+        url('NanumBarunGothicUL.otf') format('opentype'),
+        url('NanumBarunGothicUL.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: local('NanumBarunGothic'),
+        url('NanumBarunGothicL.woff2') format('woff2'), 
+        url('NanumBarunGothicL.woff') format('woff'),
+        url('NanumBarunGothicL.ttf') format('truetype'),
+        url('NanumBarunGothicL.otf') format('opentype'),
+        url('NanumBarunGothicL.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NanumBarunGothic'),
+        url('NanumBarunGothicR.woff2') format('woff2'), 
+        url('NanumBarunGothicR.woff') format('woff'),
+        url('NanumBarunGothicR.ttf') format('truetype'),
+        url('NanumBarunGothicR.otf') format('opentype'),
+        url('NanumBarunGothicR.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NanumBarunGothic'),
+        url('NanumBarunGothicB.woff2') format('woff2'), 
+        url('NanumBarunGothicB.woff') format('woff'),
+        url('NanumBarunGothicB.ttf') format('truetype'),
+        url('NanumBarunGothicB.otf') format('opentype'),
+        url('NanumBarunGothicB.eot') format('embedded-opentype');
+}
+
+
+
+/*나눔명조*/
+
+
+@font-face {
+    font-family: 'NanumMyeongjo';
+    font-style: normal;
+    font-weight: 400;
+    src: local('※'),
+        url('NanumMyeongjoR.woff2') format('woff2'), 
+        url('NanumMyeongjoR.woff') format('woff'),
+        url('NanumMyeongjoR.ttf') format('truetype'),
+        url('NanumMyeongjoR.otf') format('opentype'),
+        url('NanumMyeongjoR.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumMyeongjo';
+    font-style: normal;
+    font-weight: 700;
+    src: local('※'),
+        url('NanumMyeongjoB.woff2') format('woff2'), 
+        url('NanumMyeongjoB.woff') format('woff'),
+        url('NanumMyeongjoB.ttf') format('truetype'),
+        url('NanumMyeongjoB.otf') format('opentype'),
+        url('NanumMyeongjoB.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumMyeongjo';
+    font-style: normal;
+    font-weight: 900;
+    src: local('※'),
+        url('NanumMyeongjoEB.woff2') format('woff2'), 
+        url('NanumMyeongjoEB.woff') format('woff'),
+        url('NanumMyeongjoEB.ttf') format('truetype'),
+        url('NanumMyeongjoEB.otf') format('opentype'),
+        url('NanumMyeongjoEB.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+
+/*다음*/
+
+@font-face {
+    font-family: 'Daum';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Daum'),
+        url('DaumR.woff2') format('woff2'), 
+        url('DaumR.woff') format('woff'),
+        url('DaumR.ttf') format('truetype'),
+        url('DaumR.otf') format('opentype'),
+        url('DaumR.eot') format('embedded-opentype');
+}
+
+
+@font-face {
+    font-family: 'Daum';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Daum'),
+        url('DaumSB.woff2') format('woff2'), 
+        url('DaumSB.woff') format('woff'),
+        url('DaumSB.ttf') format('truetype'),
+        url('DaumSB.otf') format('opentype'),
+        url('DaumSB.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+/*나눔스퀘어*/
+
+@font-face {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 100;
+    src: local('※'),
+        url('NanumSquareL.woff2') format('woff2'), 
+        url('NanumSquareL.woff') format('woff'),
+        url('NanumSquareL.ttf') format('truetype'),
+        url('NanumSquareL.otf') format('opentype'),
+        url('NanumSquareL.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 400;
+    src: local('※'),
+        url('NanumSquareR.woff2') format('woff2'), 
+        url('NanumSquareR.woff') format('woff'),
+        url('NanumSquareR.ttf') format('truetype'),
+        url('NanumSquareR.otf') format('opentype'),
+        url('NanumSquareR.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    src: local('※'),
+        url('NanumSquareB.woff2') format('woff2'), 
+        url('NanumSquareB.woff') format('woff'),
+        url('NanumSquareB.ttf') format('truetype'),
+        url('NanumSquareB.otf') format('opentype'),
+        url('NanumSquareB.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 900;
+    src: local('※'),
+        url('NanumSquareEB.woff2') format('woff2'), 
+        url('NanumSquareEB.woff') format('woff'),
+        url('NanumSquareEB.ttf') format('truetype'),
+        url('NanumSquareEB.otf') format('opentype'),
+        url('NanumSquareEB.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+/*솔잎*/
+@font-face {
+    font-family: 'HANSOL';
+    font-style: normal;
+    font-weight: 900;
+    src: local('※'),
+        url('HANSolB.woff2') format('woff2'), 
+        url('HANSolB.woff') format('woff'),
+        url('HANSolB.ttf') format('truetype'),
+        url('HANSolB.otf') format('opentype'),
+        url('HANSolB.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'HANSOL';
+    font-style: normal;
+    font-weight: 500;
+    src: local('※'),
+        url('HANSolM.woff2') format('woff2'), 
+        url('HANSolM.woff') format('woff'),
+        url('HANSolM.ttf') format('truetype'),
+        url('HANSolM.otf') format('opentype'),
+        url('HANSolM.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'HANSOL';
+    font-style: normal;
+    font-weight: 100;
+    src: local('※'),
+        url('HANSOLL.woff2') format('woff2'), 
+        url('HANSOLL.woff') format('woff'),
+        url('HANSOLL.ttf') format('truetype'),
+        url('HANSOLL.otf') format('opentype'),
+        url('HANSOLL.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+/*경기바탕*/
+
+@font-face {
+    font-family: 'Batang';
+    font-style: normal;
+    font-weight: 900;
+    src: local('※'),
+        url('Batang_BOLD.woff2') format('woff2'), 
+        url('Batang_BOLD.woff') format('woff'),
+        url('Batang_BOLD.ttf') format('truetype'),
+        url('Batang_BOLD.otf') format('opentype'),
+        url('Batang_BOLD.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Batang';
+    font-style: normal;
+    font-weight: 400;
+    src: local('※'),
+        url('Batang_Regular.woff2') format('woff2'), 
+        url('Batang_Regular.woff') format('woff'),
+        url('Batang_Regular.ttf') format('truetype'),
+        url('Batang_Regular.otf') format('opentype'),
+        url('Batang_Regular.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+/*경기타이틀*/
+
+@font-face {
+    font-family: 'Title';
+    font-style: normal;
+    font-weight: 900;
+    src: local('※'),
+        url('Title_Bold.woff2') format('woff2'), 
+        url('Title_Bold.woff') format('woff'),
+        url('Title_Bold.ttf') format('truetype'),
+        url('Title_Bold.otf') format('opentype'),
+        url('Title_Bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Title';
+    font-style: normal;
+    font-weight: 600;
+    src: local('※'),
+        url('Title_Medium.woff2') format('woff2'), 
+        url('Title_Medium.woff') format('woff'),
+        url('Title_Medium.ttf') format('truetype'),
+        url('Title_Medium.otf') format('opentype'),
+        url('Title_Medium.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Title';
+    font-style: normal;
+    font-weight: 300;
+    src: local('※'),
+        url('Title_Light.woff2') format('woff2'), 
+        url('Title_Light.woff') format('woff'),
+        url('Title_Light.ttf') format('truetype'),
+        url('Title_Light.otf') format('opentype'),
+        url('Title_Light.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+
+/*순바탕*/
+
+@font-face {
+    font-family: 'SunBatang';
+    font-style: normal;
+    font-weight: 900;
+    src: local('※'),
+        url('SunBatang-Bold.woff2') format('woff2'), 
+        url('SunBatang-Bold.woff') format('woff'),
+        url('SunBatang-Bold.ttf') format('truetype'),
+        url('SunBatang-Bold.otf') format('opentype'),
+        url('SunBatang-Bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'SunBatang';
+    font-style: normal;
+    font-weight: 400;
+    src: local('※'),
+        url('SunBatang-Medium.woff2') format('woff2'), 
+        url('SunBatang-Medium.woff') format('woff'),
+        url('SunBatang-Medium.ttf') format('truetype'),
+        url('SunBatang-Medium.otf') format('opentype'),
+        url('SunBatang-Medium.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'SunBatang';
+    font-style: normal;
+    font-weight: 100;
+    src: local('※'),
+        url('SunBatang-Light.woff2') format('woff2'), 
+        url('SunBatang-Light.woff') format('woff'),
+        url('SunBatang-Light.ttf') format('truetype'),
+        url('SunBatang-Light.otf') format('opentype'),
+        url('SunBatang-.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+/*이롭게체*/
+
+@font-face {
+    font-family: 'iropkebatang';
+    font-style: normal;
+    font-weight: 500;
+    src: local('※'),
+        url('IropkeBatangM.woff2') format('woff2'), 
+        url('IropkeBatangM.woff') format('woff'),
+        url('IropkeBatangM.ttf') format('truetype'),
+        url('IropkeBatangM.otf') format('opentype'),
+        url('IropkeBatangM.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+/*에스코어*/
+
+@font-face {
+    font-family: 'Score';
+    font-style: normal;
+    font-weight: 900;
+    src: local('※'),
+        url('SCDream9.woff2') format('woff2'), 
+        url('SCDream9.woff') format('woff'),
+        url('SCDream9.ttf') format('truetype'),
+        url('SCDream9.otf') format('opentype'),
+        url('SCDream9.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Score';
+    font-style: normal;
+    font-weight: 800;
+    src: local('※'),
+        url('SCDream8.woff2') format('woff2'), 
+        url('SCDream8.woff') format('woff'),
+        url('SCDream8.ttf') format('truetype'),
+        url('SCDream8.otf') format('opentype'),
+        url('SCDream8.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Score';
+    font-style: normal;
+    font-weight: 700;
+    src: local('※'),
+        url('SCDream7.woff2') format('woff2'), 
+        url('SCDream7.woff') format('woff'),
+        url('SCDream7.ttf') format('truetype'),
+        url('SCDream7.otf') format('opentype'),
+        url('SCDream7.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Score';
+    font-style: normal;
+    font-weight: 600;
+    src: local('※'),
+        url('SCDream6.woff2') format('woff2'), 
+        url('SCDream6.woff') format('woff'),
+        url('SCDream6.ttf') format('truetype'),
+        url('SCDream6.otf') format('opentype'),
+        url('SCDream6.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Score';
+    font-style: normal;
+    font-weight: 500;
+    src: local('※'),
+        url('SCDream5.woff2') format('woff2'), 
+        url('SCDream5.woff') format('woff'),
+        url('SCDream5.ttf') format('truetype'),
+        url('SCDream5.otf') format('opentype'),
+        url('SCDream5.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Score';
+    font-style: normal;
+    font-weight: 400;
+    src: local('※'),
+        url('SCDream4.woff2') format('woff2'), 
+        url('SCDream4.woff') format('woff'),
+        url('SCDream4.ttf') format('truetype'),
+        url('SCDream4.otf') format('opentype'),
+        url('SCDream4.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Score';
+    font-style: normal;
+    font-weight: 300;
+    src: local('※'),
+        url('SCDream3.woff2') format('woff2'), 
+        url('SCDream3.woff') format('woff'),
+        url('SCDream3.ttf') format('truetype'),
+        url('SCDream3.otf') format('opentype'),
+        url('SCDream3.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Score';
+    font-style: normal;
+    font-weight: 200;
+    src: local('※'),
+        url('SCDream2.woff2') format('woff2'), 
+        url('SCDream2.woff') format('woff'),
+        url('SCDream2.ttf') format('truetype'),
+        url('SCDream2.otf') format('opentype'),
+        url('SCDream2.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Score';
+    font-style: normal;
+    font-weight: 100;
+    src: local('※'),
+        url('SCDream1.woff2') format('woff2'), 
+        url('SCDream1.woff') format('woff'),
+        url('SCDream1.ttf') format('truetype'),
+        url('SCDream1.otf') format('opentype'),
+        url('SCDream1.eot') format('embedded-opentype');
+}
+
+
+
+
+/*스포카*/
+
+@font-face {
+    font-family: 'Spoqa';
+    font-style: normal;
+    font-weight: 900;
+    src: local('※'),
+        url('Spoqa Han Sans Bold.woff2') format('woff2'), 
+        url('Spoqa Han Sans Bold.woff') format('woff'),
+        url('Spoqa Han Sans Bold.ttf') format('truetype'),
+        url('Spoqa Han Sans Bold.otf') format('opentype'),
+        url('Spoqa Han Sans Bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Spoqa';
+    font-style: normal;
+    font-weight: 600;
+    src: local('※'),
+        url('Spoqa Han Sans Light.woff2') format('woff2'), 
+        url('Spoqa Han Sans Light.woff') format('woff'),
+        url('Spoqa Han Sans Light.ttf') format('truetype'),
+        url('Spoqa Han Sans Light.otf') format('opentype'),
+        url('Spoqa Han Sans Light.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Spoqa';
+    font-style: normal;
+    font-weight: 300;
+    src: local('※'),
+        url('Spoqa Han Sans Regular.woff2') format('woff2'), 
+        url('Spoqa Han Sans Regular.woff') format('woff'),
+        url('Spoqa Han Sans Regular.ttf') format('truetype'),
+        url('Spoqa Han Sans Regular.otf') format('opentype'),
+        url('Spoqa Han Sans Regular.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Spoqa';
+    font-style: normal;
+    font-weight: 100;
+    src: local('※'),
+        url('Spoqa Han Sans Thin.woff2') format('woff2'), 
+        url('Spoqa Han Sans Thin.woff') format('woff'),
+        url('Spoqa Han Sans Thin.ttf') format('truetype'),
+        url('Spoqa Han Sans Thin.otf') format('opentype'),
+        url('Spoqa Han Sans Thin.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
